@@ -1,0 +1,231 @@
+{
+    "header" : {
+      "brandName": "My Brand",
+      "brandLogo": "",
+      "usermenu" : [
+        {"label" : "Register", "url": "/register"},
+        {"label" : "login", "url": "/login"}
+      ],
+      "navmenu": [
+        {
+          "label": "Home",
+          "desc": "Go to homepage",
+          "url": "/home",
+          "children": [
+            {
+              "label": "Home",
+              "desc": "Main Page",
+              "url": "/home"
+            },
+            {
+              "label": "Jobs",
+              "desc": "Find latest jobs",
+              "url": "/about"
+            },
+            {
+              "label": "Employers",
+              "desc": "View employers of big tech companies",
+              "url": "/employers"
+            },
+            {
+                "label": "Blog",
+                "desc": "Our blogs",
+                "url": "/blog"
+            },
+            {
+                "label": "Contact",
+                "desc": "Contact us",
+                "url": "/contact"
+            }
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Post Job",
+        "url": "/postjob",
+        "desc": "Post a Job for hire"
+      }
+    
+    },
+    "pages" : {
+        "home": {
+            "sections": [
+              {
+                "name": "Hero",
+                "id": "sec_hero_123456", 
+                "type": "hero",
+                "heading": "Welcome to My Brand",
+                "caption": "Discover and Recruit Top Talent Effortlessly with Joblet!",
+                "description": "Unlock your potential with quality job & earn from world leading brands.",
+                "cta": {
+                    "label": "Search",
+                    "url": "/search",
+                    "desc": "Search for traveling and trips"
+                  },            
+                "imageUrl": "./public/images/welcome-hero/banner.jpg"
+              },
+              {
+                "name": "Browse",
+                "id": "sec_services_987654", 
+                "type": "general",
+                "heading": "Browse by Category",
+                "caption": "Recruitment Made Easy in 100 seconds",
+                "cta" : {
+                  "heading":"All Category &gt",
+                  "description" : "View all categories of latest job offers"
+                },
+                "description": "To make effecient usage of this website, we recommend you to proceed through these steps for nice usage experience.",
+                "features" : [
+                    {
+                        "id" : "01",
+                        "iconClass" : "fa-solid fa-building-columns",
+                        "heading" : "Accounting",
+                        "vacancy": "16"
+                    },
+                    {
+                        "id" : "02",
+                        "iconClass" : "fa-solid fa-pencil",
+                        "heading" : "Art & Animation",
+                        "vacancy": "3"
+                    },
+                    {
+                        "id" : "03",
+                        "iconClass" : "fa-solid fa-briefcase",
+                        "heading" : "Business Marketing",
+                        "vacancy": "13"
+                      },
+                    {
+                      "id" : "04",
+                      "iconClass" : "fa-solid fa-sliders",
+                      "heading" : "Editing",
+                      "vacancy": "8"
+                    },
+                    {
+                      "id" : "05",
+                      "iconClass" : "fa-solid fa-code",
+                      "heading" : "Development",
+                      "vacancy": "2"
+                    },
+                    {
+                      "id" : "06",
+                      "iconClass" : "fa-solid fa-truck",
+                      "heading" : "Delivery Manager",
+                      "vacancy": "15"
+                    },
+                    {
+                      "id" : "07",
+                      "iconClass" : "fa-solid fa-headphones-simple",
+                      "heading" : "Customer Service",
+                      "vacancy": "12"
+                    },
+                    {
+                      "id" : "08",
+                      "iconClass" : "fa-solid fa-bullhorn",
+                      "heading" : "Sales & Marketing",
+                      "vacancy": "10"
+                    },
+                    {
+                      "id" : "09",
+                      "iconClass" : "fa-solid fa-laptop-code",
+                      "heading" : "IT & Networking",
+                      "vacancy": "5"
+                    },
+                    {
+                      "id" : "10",
+                      "iconClass" : "fa-solid fa-stethoscope",
+                      "heading" : "Physician",
+                      "vacancy": "9"
+                    }
+                ]
+              },
+              {
+                "name": "Help",
+                "id": "sec_help_123456", 
+                "heading": "Get the job of your dreams quickly.",
+                "caption": "Apply for job in seconds",
+                "description": "It only takes 5 minutes. Set-up is smooth and simple, with fully customisable page design to reflect your brand. It only takes 5 minutes.",
+                "imageUrl": "./public/about.jpg"
+              },
+              {
+                "name": "Blogs",
+                "id": "sec_blogs_223344", 
+                "type": "general",
+                "heading": "Blogs",
+                "caption": "Blog Posts",
+                "description": "Always upto date with our latest Blogs and Articles",
+                "image_url" : "public/images/blog",
+                "cta":{
+                  "label" : "Read more",
+                  "description": "Read more about a specific blog"
+                },
+                "features" : [
+                    {
+                        "imgUrl" : "1.jpg",
+                        "heading" : "Four Ways to Keep Your Workout Routine Fresh",
+                        "description" : "Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna.",
+                        "comments" : "5",
+                        "time" : "May 20, 2024"
+                    },
+                    {
+                        "imgUrl" : "2.jpg",
+                        "heading" : "What are the benefits of using job listing",
+                        "description" : "Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna.",
+                        "comments" : "5",
+                        "time" : "May 20, 2024"
+                    },
+                    {
+                        "imgUrl" : "3.jpg",
+                        "heading" : "CareerPathways: Navigating the Professional Landscape",
+                        "description" : "Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna.",
+                        "comments" : "5",
+                        "time" : "May 20, 2024"
+                    }
+                ]
+              }
+            ]
+        }
+    },
+    "footer" : {
+        "newsletter" : {
+            "heading" : "Sign up to our newsletter",
+            "cta": {
+                "label": "Sign up",
+                "url": "/sign-up",
+                "desc": "Sign up to get our latest updates"
+            }
+        },
+        "sitemap": [
+            {
+              "label": "Privacy Policy",
+              "url": "/privacy"
+            },
+            {
+              "label": "Terms of Service",
+              "url": "/terms"
+            }
+          ],
+          "copyright" : "Copyright @2024 Mohamed Wahid",
+          "socialmedia": [
+            {
+              "platform": "Facebook",
+              "iconClass" : "fa-brands fa-facebook",
+              "url": "https://facebook.com/mybrand"
+            },
+            {
+              "platform": "Twitter",
+              "iconClass" : "fa-brands fa-twitter",
+              "url": "https://twitter.com/mybrand"
+            },
+            {
+              "platform": "LinkedIn",
+              "iconClass" : "fa-brands fa-linkedin",
+              "url": "https://linkedin.com/company/mybrand"
+            },
+            {
+              "platform": "Instagram",
+              "iconClass" : "fa-brands fa-instagram",
+              "url": "https://instagram.com/mybrand"
+            }
+          ]
+    }
+}

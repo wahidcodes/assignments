@@ -1,0 +1,130 @@
+main{
+    background-color: #e6e9f4;
+    padding: 6em;
+}
+
+.headings{
+    background-color: #e6e9f4;
+
+}
+
+.container{
+    background-color: #e6e9f4;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    background-color: #e6e9f4;
+    font-size:3em
+}
+
+p{
+    background-color: #e6e9f4;
+    margin-top: 1em;
+}
+
+.all_categories{
+    background-color: #e6e9f4;
+    font-weight: 600;
+}
+
+.svgicon{
+    height: 1em;
+    width: 1em;
+    color: white;
+}
+
+.headphone_icon path{
+    transition:  background-color 0.3s, stroke 0.3s;
+}
+
+.headphone_icon:hover path {
+    stroke: white; /* Change to your desired color */
+    background-color: #31af36;
+}
+
+.cards{
+    margin-top: 2em;
+    background-color: #e6e9f4;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 14em 14em 14em 14em 14em;
+    gap: 40px
+}
+
+.card{
+    background-color: #ffffff;
+    width: auto;
+    height: auto;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 3em;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: #ffffff;
+    color: #31af36;
+    border: 2px solid #e6e9f4;
+    border-radius: 50%;
+    transition:background-color 1s ease;
+}
+
+.btn::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    width: 4em;
+}
+
+.svgicon .btn:hover{
+    background-color: #31af36;
+    color: white;
+}
+
+.svgicon:hover{
+    color: #ffffff;
+}
+
+.arrow{
+    padding: 1em;
+    background-color: #e6e9f4;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px){
+
+    main{
+        padding: 1em;
+    }
+
+    .cards{
+        margin-top: 1em;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        padding: 2em;
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+
+    .all_categories{
+        margin-top: 1.5em;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items:start;
+    }
+}
