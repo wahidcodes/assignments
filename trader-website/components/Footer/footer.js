@@ -1,4 +1,4 @@
-import { fetchFooter } from "/src/SectionAPIs/script.js";
+import { fetchFooter } from "/static/api.js";
 
 class FooterElement extends HTMLElement{
     constructor(){

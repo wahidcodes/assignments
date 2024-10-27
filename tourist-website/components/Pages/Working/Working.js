@@ -1,4 +1,4 @@
-import { fetchPages } from "/static/script.js";
+import { fetchPages } from "/static/api.js";
 
 
 class Working extends HTMLElement{

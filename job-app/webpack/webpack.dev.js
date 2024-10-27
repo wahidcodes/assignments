@@ -14,5 +14,12 @@ module.exports = merge(common, {
       open: true,
       hot: true,
       historyApiFallback: true,
-    },
- });
+      proxy: [                                //?
+        {
+            context: ['/header', '/footer', '/pages'],
+            target: 'http://localhost:3000',
+            changeOrigin: true,
+        }
+      ]
+    }    
+});

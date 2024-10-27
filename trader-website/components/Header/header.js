@@ -1,4 +1,4 @@
-import { fetchHeader } from "/src/SectionAPIs/script.js";
+import { fetchHeader } from "/static/api.js";
 
 class HeaderElement extends HTMLElement{
     constructor(){

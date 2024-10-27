@@ -1,4 +1,4 @@
-import { fetchHeader } from "/static/script.js";
+import { fetchHeader } from "/static/api.js";
 
 class HeaderElement extends HTMLElement{
     constructor(){
@@ -9,7 +9,6 @@ class HeaderElement extends HTMLElement{
     }
     
     navBarAction = async (e) => {
-        console.log("Working")
         this.closed = !this.closed; // Toggle the closed state
         const headers = await fetchHeader();
         if(this.closed){

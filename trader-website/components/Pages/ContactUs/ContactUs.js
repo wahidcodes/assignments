@@ -1,4 +1,4 @@
-import { fetchPages } from "/src/SectionAPIs/script.js";
+import { fetchPages } from "/static/api.js";
 
 class ContactUs extends HTMLElement{
     constructor(){

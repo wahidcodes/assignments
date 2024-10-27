@@ -1,5 +1,5 @@
-import {fetchFooter} from '/static/script.js'
-import {fetchHeader} from '/static/script.js'
+import {fetchFooter} from '/static/api.js'
+import {fetchHeader} from '/static/api.js'
 
 class FooterElement extends HTMLElement{
     constructor(){
